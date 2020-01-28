@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #2D9CCA url(../img/seamless-pattern-computer-circuit-board-vector-2715328.jpg);
+    background-size: 500px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    background: rgb(145, 203, 228);
+    border-top: 4px solid green;
+    border-left: 4px solid green;
+    border-right: 4px solid green;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border: 4px solid green;
+    padding: 10px;
+}
+article figure img{
+    width: 70%;
+    min-width: 140px;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+audio{
+    display: block;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer p{
+    margin: 0;
+}
+@media only screen and (max-width: 1000px){
+    body{
+        background: none;
+    }
+    main{
+    width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+}
